@@ -1,0 +1,1566 @@
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 2
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 2000/2000
+number of failed transactions: 0 (0.000%)
+latency average = 0.532 ms
+initial connection time = 33.525 ms
+tps = 3760.154768 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 1.958 ms
+initial connection time = 14.599 ms
+tps = 510.673067 (without initial connection time)
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+BEGIN
+
+COMMIT
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+dropping old tables...
+creating tables...
+generating data (client-side)...
+100000 of 1000000 tuples (10%) of pgbench_accounts done (elapsed 0.03 s, remaining 0.26 s)
+200000 of 1000000 tuples (20%) of pgbench_accounts done (elapsed 0.05 s, remaining 0.22 s)
+300000 of 1000000 tuples (30%) of pgbench_accounts done (elapsed 0.58 s, remaining 1.35 s)
+400000 of 1000000 tuples (40%) of pgbench_accounts done (elapsed 1.08 s, remaining 1.62 s)
+500000 of 1000000 tuples (50%) of pgbench_accounts done (elapsed 1.58 s, remaining 1.58 s)
+600000 of 1000000 tuples (60%) of pgbench_accounts done (elapsed 2.08 s, remaining 1.39 s)
+700000 of 1000000 tuples (70%) of pgbench_accounts done (elapsed 2.61 s, remaining 1.12 s)
+800000 of 1000000 tuples (80%) of pgbench_accounts done (elapsed 3.09 s, remaining 0.77 s)
+900000 of 1000000 tuples (90%) of pgbench_accounts done (elapsed 3.59 s, remaining 0.40 s)
+1000000 of 1000000 tuples (100%) of pgbench_accounts done (elapsed 4.56 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 6.14 s (drop tables 0.02 s, create tables 0.02 s, client-side generate 5.62 s, vacuum 0.14 s, primary keys 0.34 s).
+dropping old tables...
+creating tables...
+generating data (client-side)...
+100000 of 100000 tuples (100%) of pgbench_accounts done (elapsed 0.03 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 0.82 s (drop tables 0.08 s, create tables 0.02 s, client-side generate 0.59 s, vacuum 0.05 s, primary keys 0.09 s).
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.820 ms
+initial connection time = 117.503 ms
+tps = 7316.091744 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 2.132 ms
+initial connection time = 19.174 ms
+tps = 468.999156 (without initial connection time)
+BEGIN
+
+COMMIT
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.818 ms
+initial connection time = 135.186 ms
+tps = 7338.004381 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.767 ms
+initial connection time = 105.437 ms
+tps = 7824.093514 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 2.487 ms
+initial connection time = 15.132 ms
+tps = 402.074705 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 1.517 ms
+initial connection time = 15.150 ms
+tps = 659.369643 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 2
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 2000/2000
+number of failed transactions: 0 (0.000%)
+latency average = 0.540 ms
+initial connection time = 48.483 ms
+tps = 3706.222562 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 2.615 ms
+initial connection time = 16.186 ms
+tps = 382.453054 (without initial connection time)
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+BEGIN
+COMMIT
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+dropping old tables...
+creating tables...
+generating data (client-side)...
+100000 of 1000000 tuples (10%) of pgbench_accounts done (elapsed 0.03 s, remaining 0.27 s)
+200000 of 1000000 tuples (20%) of pgbench_accounts done (elapsed 0.05 s, remaining 0.22 s)
+300000 of 1000000 tuples (30%) of pgbench_accounts done (elapsed 0.56 s, remaining 1.30 s)
+400000 of 1000000 tuples (40%) of pgbench_accounts done (elapsed 1.04 s, remaining 1.56 s)
+500000 of 1000000 tuples (50%) of pgbench_accounts done (elapsed 1.56 s, remaining 1.56 s)
+600000 of 1000000 tuples (60%) of pgbench_accounts done (elapsed 2.05 s, remaining 1.37 s)
+700000 of 1000000 tuples (70%) of pgbench_accounts done (elapsed 2.53 s, remaining 1.08 s)
+800000 of 1000000 tuples (80%) of pgbench_accounts done (elapsed 3.03 s, remaining 0.76 s)
+900000 of 1000000 tuples (90%) of pgbench_accounts done (elapsed 3.97 s, remaining 0.44 s)
+1000000 of 1000000 tuples (100%) of pgbench_accounts done (elapsed 4.47 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 6.13 s (drop tables 0.04 s, create tables 0.02 s, client-side generate 5.55 s, vacuum 0.16 s, primary keys 0.37 s).
+dropping old tables...
+creating tables...
+generating data (client-side)...
+100000 of 100000 tuples (100%) of pgbench_accounts done (elapsed 0.03 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 0.82 s (drop tables 0.08 s, create tables 0.02 s, client-side generate 0.57 s, vacuum 0.05 s, primary keys 0.10 s).
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.850 ms
+initial connection time = 133.568 ms
+tps = 7061.390553 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 1.787 ms
+initial connection time = 19.754 ms
+tps = 559.471859 (without initial connection time)
+BEGIN
+
+COMMIT
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.893 ms
+initial connection time = 122.352 ms
+tps = 6720.648408 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.894 ms
+initial connection time = 115.893 ms
+tps = 6712.415507 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 2.738 ms
+initial connection time = 15.716 ms
+tps = 365.270117 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 1.891 ms
+initial connection time = 14.736 ms
+tps = 528.904638 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 2
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 2000/2000
+number of failed transactions: 0 (0.000%)
+latency average = 0.467 ms
+initial connection time = 43.859 ms
+tps = 4280.510408 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 1.506 ms
+initial connection time = 16.905 ms
+tps = 664.142924 (without initial connection time)
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+dropping old tables...
+creating tables...
+generating data (client-side)...
+100000 of 1000000 tuples (10%) of pgbench_accounts done (elapsed 0.02 s, remaining 0.22 s)
+200000 of 1000000 tuples (20%) of pgbench_accounts done (elapsed 0.05 s, remaining 0.21 s)
+300000 of 1000000 tuples (30%) of pgbench_accounts done (elapsed 0.55 s, remaining 1.29 s)
+400000 of 1000000 tuples (40%) of pgbench_accounts done (elapsed 1.04 s, remaining 1.57 s)
+500000 of 1000000 tuples (50%) of pgbench_accounts done (elapsed 1.51 s, remaining 1.51 s)
+600000 of 1000000 tuples (60%) of pgbench_accounts done (elapsed 1.98 s, remaining 1.32 s)
+700000 of 1000000 tuples (70%) of pgbench_accounts done (elapsed 2.46 s, remaining 1.05 s)
+800000 of 1000000 tuples (80%) of pgbench_accounts done (elapsed 2.92 s, remaining 0.73 s)
+900000 of 1000000 tuples (90%) of pgbench_accounts done (elapsed 3.41 s, remaining 0.38 s)
+1000000 of 1000000 tuples (100%) of pgbench_accounts done (elapsed 4.36 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 5.85 s (drop tables 0.03 s, create tables 0.02 s, client-side generate 5.35 s, vacuum 0.12 s, primary keys 0.34 s).
+dropping old tables...
+creating tables...
+generating data (client-side)...
+100000 of 100000 tuples (100%) of pgbench_accounts done (elapsed 0.02 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 0.79 s (drop tables 0.08 s, create tables 0.02 s, client-side generate 0.55 s, vacuum 0.05 s, primary keys 0.09 s).
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.857 ms
+initial connection time = 131.988 ms
+tps = 7004.689640 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 2.954 ms
+initial connection time = 17.645 ms
+tps = 338.501117 (without initial connection time)
+BEGIN
+
+COMMIT
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.879 ms
+initial connection time = 133.755 ms
+tps = 6827.981523 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.915 ms
+initial connection time = 130.459 ms
+tps = 6560.589228 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 1.543 ms
+initial connection time = 17.174 ms
+tps = 648.214170 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 1.632 ms
+initial connection time = 16.741 ms
+tps = 612.594952 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 2
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 2000/2000
+number of failed transactions: 0 (0.000%)
+latency average = 0.529 ms
+initial connection time = 56.639 ms
+tps = 3779.018136 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 2.350 ms
+initial connection time = 15.375 ms
+tps = 425.604358 (without initial connection time)
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+dropping old tables...
+creating tables...
+generating data (client-side)...
+100000 of 1000000 tuples (10%) of pgbench_accounts done (elapsed 0.03 s, remaining 0.27 s)
+200000 of 1000000 tuples (20%) of pgbench_accounts done (elapsed 0.05 s, remaining 0.22 s)
+300000 of 1000000 tuples (30%) of pgbench_accounts done (elapsed 0.52 s, remaining 1.22 s)
+400000 of 1000000 tuples (40%) of pgbench_accounts done (elapsed 1.00 s, remaining 1.50 s)
+500000 of 1000000 tuples (50%) of pgbench_accounts done (elapsed 1.47 s, remaining 1.47 s)
+600000 of 1000000 tuples (60%) of pgbench_accounts done (elapsed 1.95 s, remaining 1.30 s)
+700000 of 1000000 tuples (70%) of pgbench_accounts done (elapsed 2.43 s, remaining 1.04 s)
+800000 of 1000000 tuples (80%) of pgbench_accounts done (elapsed 2.90 s, remaining 0.72 s)
+900000 of 1000000 tuples (90%) of pgbench_accounts done (elapsed 3.83 s, remaining 0.43 s)
+1000000 of 1000000 tuples (100%) of pgbench_accounts done (elapsed 4.30 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 5.87 s (drop tables 0.03 s, create tables 0.02 s, client-side generate 5.37 s, vacuum 0.13 s, primary keys 0.32 s).
+dropping old tables...
+creating tables...
+generating data (client-side)...
+100000 of 100000 tuples (100%) of pgbench_accounts done (elapsed 0.01 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 0.81 s (drop tables 0.08 s, create tables 0.02 s, client-side generate 0.58 s, vacuum 0.05 s, primary keys 0.09 s).
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.933 ms
+initial connection time = 133.608 ms
+tps = 6428.580612 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 2.417 ms
+initial connection time = 17.006 ms
+tps = 413.753155 (without initial connection time)
+BEGIN
+
+COMMIT
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.840 ms
+initial connection time = 106.835 ms
+tps = 7145.911169 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.849 ms
+initial connection time = 144.092 ms
+tps = 7070.102422 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 2.763 ms
+initial connection time = 23.449 ms
+tps = 361.977847 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 1.602 ms
+initial connection time = 16.662 ms
+tps = 624.024961 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 2
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 2000/2000
+number of failed transactions: 0 (0.000%)
+latency average = 0.588 ms
+initial connection time = 33.234 ms
+tps = 3401.279561 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 1.722 ms
+initial connection time = 13.290 ms
+tps = 580.787548 (without initial connection time)
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+dropping old tables...
+creating tables...
+generating data (client-side)...
+100000 of 1000000 tuples (10%) of pgbench_accounts done (elapsed 0.02 s, remaining 0.22 s)
+200000 of 1000000 tuples (20%) of pgbench_accounts done (elapsed 0.08 s, remaining 0.33 s)
+300000 of 1000000 tuples (30%) of pgbench_accounts done (elapsed 0.56 s, remaining 1.30 s)
+400000 of 1000000 tuples (40%) of pgbench_accounts done (elapsed 1.05 s, remaining 1.58 s)
+500000 of 1000000 tuples (50%) of pgbench_accounts done (elapsed 1.54 s, remaining 1.54 s)
+600000 of 1000000 tuples (60%) of pgbench_accounts done (elapsed 2.00 s, remaining 1.34 s)
+700000 of 1000000 tuples (70%) of pgbench_accounts done (elapsed 2.48 s, remaining 1.06 s)
+800000 of 1000000 tuples (80%) of pgbench_accounts done (elapsed 2.95 s, remaining 0.74 s)
+900000 of 1000000 tuples (90%) of pgbench_accounts done (elapsed 3.88 s, remaining 0.43 s)
+1000000 of 1000000 tuples (100%) of pgbench_accounts done (elapsed 4.36 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 5.91 s (drop tables 0.03 s, create tables 0.02 s, client-side generate 5.42 s, vacuum 0.12 s, primary keys 0.33 s).
+dropping old tables...
+creating tables...
+generating data (client-side)...
+100000 of 100000 tuples (100%) of pgbench_accounts done (elapsed 0.03 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 0.80 s (drop tables 0.08 s, create tables 0.02 s, client-side generate 0.56 s, vacuum 0.05 s, primary keys 0.09 s).
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.848 ms
+initial connection time = 114.328 ms
+tps = 7076.706784 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 1.487 ms
+initial connection time = 29.592 ms
+tps = 672.585418 (without initial connection time)
+BEGIN
+
+COMMIT
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.858 ms
+initial connection time = 147.399 ms
+tps = 6996.953993 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.893 ms
+initial connection time = 126.287 ms
+tps = 6720.121500 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 1.955 ms
+initial connection time = 16.488 ms
+tps = 511.535117 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 1.420 ms
+initial connection time = 15.066 ms
+tps = 704.076604 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 2
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 2000/2000
+number of failed transactions: 0 (0.000%)
+latency average = 0.658 ms
+initial connection time = 49.329 ms
+tps = 3041.792711 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 1.687 ms
+initial connection time = 16.083 ms
+tps = 592.768228 (without initial connection time)
+BEGIN
+
+BEGIN
+COMMIT
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+dropping old tables...
+creating tables...
+generating data (client-side)...
+100000 of 1000000 tuples (10%) of pgbench_accounts done (elapsed 0.03 s, remaining 0.27 s)
+200000 of 1000000 tuples (20%) of pgbench_accounts done (elapsed 0.05 s, remaining 0.21 s)
+300000 of 1000000 tuples (30%) of pgbench_accounts done (elapsed 0.56 s, remaining 1.32 s)
+400000 of 1000000 tuples (40%) of pgbench_accounts done (elapsed 1.04 s, remaining 1.55 s)
+500000 of 1000000 tuples (50%) of pgbench_accounts done (elapsed 1.51 s, remaining 1.51 s)
+600000 of 1000000 tuples (60%) of pgbench_accounts done (elapsed 1.98 s, remaining 1.32 s)
+700000 of 1000000 tuples (70%) of pgbench_accounts done (elapsed 2.46 s, remaining 1.05 s)
+800000 of 1000000 tuples (80%) of pgbench_accounts done (elapsed 2.95 s, remaining 0.74 s)
+900000 of 1000000 tuples (90%) of pgbench_accounts done (elapsed 3.94 s, remaining 0.44 s)
+1000000 of 1000000 tuples (100%) of pgbench_accounts done (elapsed 4.44 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 6.01 s (drop tables 0.03 s, create tables 0.02 s, client-side generate 5.47 s, vacuum 0.14 s, primary keys 0.35 s).
+dropping old tables...
+creating tables...
+generating data (client-side)...
+100000 of 100000 tuples (100%) of pgbench_accounts done (elapsed 0.03 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 0.83 s (drop tables 0.08 s, create tables 0.02 s, client-side generate 0.59 s, vacuum 0.05 s, primary keys 0.09 s).
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.928 ms
+initial connection time = 114.915 ms
+tps = 6462.968269 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 2.968 ms
+initial connection time = 6.925 ms
+tps = 336.881822 (without initial connection time)
+BEGIN
+
+COMMIT
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.785 ms
+initial connection time = 132.029 ms
+tps = 7641.345794 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.792 ms
+initial connection time = 144.103 ms
+tps = 7579.307984 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 1.547 ms
+initial connection time = 16.402 ms
+tps = 646.579594 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 2.378 ms
+initial connection time = 16.691 ms
+tps = 420.433046 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 2
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 2000/2000
+number of failed transactions: 0 (0.000%)
+latency average = 0.420 ms
+initial connection time = 34.099 ms
+tps = 4766.875933 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 3.076 ms
+initial connection time = 14.415 ms
+tps = 325.129239 (without initial connection time)
+BEGIN
+BEGIN
+
+
+COMMIT
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+dropping old tables...
+creating tables...
+generating data (client-side)...
+100000 of 1000000 tuples (10%) of pgbench_accounts done (elapsed 0.03 s, remaining 0.24 s)
+200000 of 1000000 tuples (20%) of pgbench_accounts done (elapsed 0.06 s, remaining 0.23 s)
+300000 of 1000000 tuples (30%) of pgbench_accounts done (elapsed 0.55 s, remaining 1.27 s)
+400000 of 1000000 tuples (40%) of pgbench_accounts done (elapsed 1.01 s, remaining 1.52 s)
+500000 of 1000000 tuples (50%) of pgbench_accounts done (elapsed 1.47 s, remaining 1.47 s)
+600000 of 1000000 tuples (60%) of pgbench_accounts done (elapsed 1.93 s, remaining 1.28 s)
+700000 of 1000000 tuples (70%) of pgbench_accounts done (elapsed 2.39 s, remaining 1.02 s)
+800000 of 1000000 tuples (80%) of pgbench_accounts done (elapsed 2.86 s, remaining 0.71 s)
+900000 of 1000000 tuples (90%) of pgbench_accounts done (elapsed 3.76 s, remaining 0.42 s)
+1000000 of 1000000 tuples (100%) of pgbench_accounts done (elapsed 4.24 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 5.77 s (drop tables 0.03 s, create tables 0.02 s, client-side generate 5.26 s, vacuum 0.15 s, primary keys 0.32 s).
+dropping old tables...
+creating tables...
+generating data (client-side)...
+100000 of 100000 tuples (100%) of pgbench_accounts done (elapsed 0.03 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 0.82 s (drop tables 0.08 s, create tables 0.02 s, client-side generate 0.58 s, vacuum 0.06 s, primary keys 0.09 s).
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.943 ms
+initial connection time = 127.809 ms
+tps = 6362.807271 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 1.593 ms
+initial connection time = 17.970 ms
+tps = 627.943485 (without initial connection time)
+BEGIN
+
+COMMIT
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.806 ms
+initial connection time = 150.277 ms
+tps = 7447.661558 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.835 ms
+initial connection time = 111.035 ms
+tps = 7187.996047 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 1.803 ms
+initial connection time = 16.581 ms
+tps = 554.538901 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 1.735 ms
+initial connection time = 17.205 ms
+tps = 576.269233 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 2
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 2000/2000
+number of failed transactions: 0 (0.000%)
+latency average = 0.419 ms
+initial connection time = 46.247 ms
+tps = 4767.739567 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 1.748 ms
+initial connection time = 16.556 ms
+tps = 572.180580 (without initial connection time)
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+dropping old tables...
+creating tables...
+generating data (client-side)...
+100000 of 1000000 tuples (10%) of pgbench_accounts done (elapsed 0.02 s, remaining 0.14 s)
+200000 of 1000000 tuples (20%) of pgbench_accounts done (elapsed 0.05 s, remaining 0.21 s)
+300000 of 1000000 tuples (30%) of pgbench_accounts done (elapsed 0.62 s, remaining 1.45 s)
+400000 of 1000000 tuples (40%) of pgbench_accounts done (elapsed 1.16 s, remaining 1.73 s)
+500000 of 1000000 tuples (50%) of pgbench_accounts done (elapsed 1.69 s, remaining 1.69 s)
+600000 of 1000000 tuples (60%) of pgbench_accounts done (elapsed 2.20 s, remaining 1.47 s)
+700000 of 1000000 tuples (70%) of pgbench_accounts done (elapsed 2.71 s, remaining 1.16 s)
+800000 of 1000000 tuples (80%) of pgbench_accounts done (elapsed 3.21 s, remaining 0.80 s)
+900000 of 1000000 tuples (90%) of pgbench_accounts done (elapsed 3.73 s, remaining 0.41 s)
+1000000 of 1000000 tuples (100%) of pgbench_accounts done (elapsed 4.75 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 6.38 s (drop tables 0.05 s, create tables 0.02 s, client-side generate 5.84 s, vacuum 0.15 s, primary keys 0.33 s).
+dropping old tables...
+creating tables...
+generating data (client-side)...
+100000 of 100000 tuples (100%) of pgbench_accounts done (elapsed 0.01 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 0.85 s (drop tables 0.08 s, create tables 0.02 s, client-side generate 0.61 s, vacuum 0.06 s, primary keys 0.09 s).
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.837 ms
+initial connection time = 119.816 ms
+tps = 7168.681464 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 1.746 ms
+initial connection time = 17.690 ms
+tps = 572.803299 (without initial connection time)
+BEGIN
+
+COMMIT
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.772 ms
+initial connection time = 129.923 ms
+tps = 7773.903782 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.845 ms
+initial connection time = 138.753 ms
+tps = 7103.904069 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 3.182 ms
+initial connection time = 18.212 ms
+tps = 314.297388 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 3.243 ms
+initial connection time = 30.282 ms
+tps = 308.346952 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 2
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 2000/2000
+number of failed transactions: 0 (0.000%)
+latency average = 0.594 ms
+initial connection time = 46.284 ms
+tps = 3367.269801 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 3.236 ms
+initial connection time = 23.743 ms
+tps = 309.071241 (without initial connection time)
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+BEGIN
+
+COMMIT
+dropping old tables...
+creating tables...
+generating data (client-side)...
+100000 of 1000000 tuples (10%) of pgbench_accounts done (elapsed 0.01 s, remaining 0.10 s)
+200000 of 1000000 tuples (20%) of pgbench_accounts done (elapsed 0.05 s, remaining 0.18 s)
+300000 of 1000000 tuples (30%) of pgbench_accounts done (elapsed 0.57 s, remaining 1.33 s)
+400000 of 1000000 tuples (40%) of pgbench_accounts done (elapsed 1.07 s, remaining 1.60 s)
+500000 of 1000000 tuples (50%) of pgbench_accounts done (elapsed 1.53 s, remaining 1.53 s)
+600000 of 1000000 tuples (60%) of pgbench_accounts done (elapsed 2.02 s, remaining 1.34 s)
+700000 of 1000000 tuples (70%) of pgbench_accounts done (elapsed 2.50 s, remaining 1.07 s)
+800000 of 1000000 tuples (80%) of pgbench_accounts done (elapsed 2.99 s, remaining 0.75 s)
+900000 of 1000000 tuples (90%) of pgbench_accounts done (elapsed 3.48 s, remaining 0.39 s)
+1000000 of 1000000 tuples (100%) of pgbench_accounts done (elapsed 4.43 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 5.97 s (drop tables 0.03 s, create tables 0.02 s, client-side generate 5.46 s, vacuum 0.14 s, primary keys 0.32 s).
+dropping old tables...
+creating tables...
+generating data (client-side)...
+100000 of 100000 tuples (100%) of pgbench_accounts done (elapsed 0.01 s, remaining 0.00 s)
+vacuuming...
+creating primary keys...
+done in 0.83 s (drop tables 0.08 s, create tables 0.02 s, client-side generate 0.58 s, vacuum 0.05 s, primary keys 0.09 s).
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.847 ms
+initial connection time = 129.090 ms
+tps = 7082.763269 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 2.105 ms
+initial connection time = 17.635 ms
+tps = 474.991688 (without initial connection time)
+BEGIN
+
+COMMIT
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.943 ms
+initial connection time = 146.670 ms
+tps = 6361.147806 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 6
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 1000
+number of transactions actually processed: 6000/6000
+number of failed transactions: 0 (0.000%)
+latency average = 0.927 ms
+initial connection time = 117.976 ms
+tps = 6469.456080 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 1.666 ms
+initial connection time = 21.123 ms
+tps = 600.348202 (without initial connection time)
+pgbench (18.6, server 17.11)
+starting vacuum...end.
+transaction type: <builtin: select only>
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 10
+number of transactions actually processed: 10/10
+number of failed transactions: 0 (0.000%)
+latency average = 2.775 ms
+initial connection time = 16.887 ms
+tps = 360.360360 (without initial connection time)
